@@ -1,0 +1,9 @@
+[submodule "dotnet-learn-web-mvc"]
+	path = dotnet-learn-web-mvc
+	url = https://github.com/PAlTnay/dotnet-learn-web.git
+[submodule "dotnet-learn-ui"]
+	path = dotnet-learn-ui
+	url = https://github.com/PAlTnay/dotnet-learn-ui.git
+[submodule "dotnet-learn"]
+	path = dotnet-learn
+	url = https://github.com/PAlTnay/dotnet-learn.git

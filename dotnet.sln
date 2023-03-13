@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31611.283
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-learn", "dotnet-learn\dotnet-learn.csproj", "{62F6002A-3DC5-4F12-9F83-F6004FA25C83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-learn-ui", "dotnet-learn-ui\dotnet-learn-ui.csproj", "{4269C593-9833-4C55-936E-4CCD85F3BBA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{62F6002A-3DC5-4F12-9F83-F6004FA25C83} = {62F6002A-3DC5-4F12-9F83-F6004FA25C83}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-learn-web-mvc", "dotnet-learn-web-mvc\dotnet-learn-web-mvc.csproj", "{4EA22F49-0CA4-4A0B-8629-0F4E340A5B53}"
+	ProjectSection(ProjectDependencies) = postProject
+		{62F6002A-3DC5-4F12-9F83-F6004FA25C83} = {62F6002A-3DC5-4F12-9F83-F6004FA25C83}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		k|Any CPU = k|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F6002A-3DC5-4F12-9F83-F6004FA25C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F6002A-3DC5-4F12-9F83-F6004FA25C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F6002A-3DC5-4F12-9F83-F6004FA25C83}.k|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F6002A-3DC5-4F12-9F83-F6004FA25C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F6002A-3DC5-4F12-9F83-F6004FA25C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4269C593-9833-4C55-936E-4CCD85F3BBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4269C593-9833-4C55-936E-4CCD85F3BBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4269C593-9833-4C55-936E-4CCD85F3BBA9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4269C593-9833-4C55-936E-4CCD85F3BBA9}.k|Any CPU.ActiveCfg = Release|Any CPU
+		{4269C593-9833-4C55-936E-4CCD85F3BBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4269C593-9833-4C55-936E-4CCD85F3BBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4269C593-9833-4C55-936E-4CCD85F3BBA9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4EA22F49-0CA4-4A0B-8629-0F4E340A5B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA22F49-0CA4-4A0B-8629-0F4E340A5B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA22F49-0CA4-4A0B-8629-0F4E340A5B53}.k|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA22F49-0CA4-4A0B-8629-0F4E340A5B53}.k|Any CPU.Build.0 = Debug|Any CPU
+		{4EA22F49-0CA4-4A0B-8629-0F4E340A5B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA22F49-0CA4-4A0B-8629-0F4E340A5B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
