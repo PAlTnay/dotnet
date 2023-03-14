@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net6.0-windows10.0.19041.0</TargetFrameworks>
+    <TargetFrameworks>net6.0-windows10.0.19041.0</TargetFrameworks>
     <RootNamespace>dotnet_unit</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -22,7 +22,6 @@
     </PackageReference>
     <ProjectReference Include="..\dotnet-learn\dotnet-learn.csproj" />
     <ProjectReference Include="..\dotnet-learn-web-mvc\dotnet-learn-web-mvc.csproj" />
-    <ProjectReference Include="..\dotnet-learn-ui\dotnet-learn-ui.csproj" />
   </ItemGroup>
 
 </Project>
