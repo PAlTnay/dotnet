@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/dotnet-learn-web-mvc/bin/Debug/net7.0/dotnet-learn-web-mvc.dll",
+            "program": "${workspaceFolder}/dotnet-learn-web-mvc/bin/Debug/net6.0-windows10.0.19041.0/dotnet-learn-web-mvc.dll",
             "args": [],
             "cwd": "${workspaceFolder}/dotnet-learn-web-mvc",
             "stopAtEntry": false,
@@ -22,12 +22,8 @@
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
-            }
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach"
+            },
+            "requireExactSource": false
         }
     ]
 }
